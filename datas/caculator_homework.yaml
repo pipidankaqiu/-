@@ -1,5 +1,5 @@
-datas:
-  jia:
+jia:
+  jia_datas:
     - [ 1,0,1 ]
     - [ 1,-1,0 ]
     - [ 1,1,2 ]
@@ -9,24 +9,58 @@ datas:
     - [ 0.1,0.1,0.2 ]
     - [ -0.1,-0.1,-0.2 ]
     - [ 99999999,99999999,199999998 ]
-  chu:
+  jia_ids:
+    - Positive inter + zero
+    - Positive inter + Negative inter
+    - Positive inter + Positive inter
+    - Negative inter + Negative inter
+    - Positive float + Negative float
+    - Positive float + zero
+    - "Positive float + Positive float"
+    - "Negative float + Negative float"
+    - "big number + big number"
+chu:
+  chu_datas:
     - [ 1,1,1 ]
     - [ 0,1,0 ]
     - [ 0.3,0.15,2 ]
     - [ -0.3,0.15,-2 ]
     - [ -0.3,-0.15,2 ]
     - [ 99999999,-77777777,-1.29 ]
-  jian:
+  chu_ids:
+    - "Positive inter + Positive inter"
+    - "zero + Positive inter"
+    - "Positive float + Positive float"
+    - "Negative float + Positive float"
+    - "Negative float + Negative float"
+    - "big number + big number"
+jian:
+  jian_datas:
     - [ 1,-1,2 ]
     - [ 1,1,0 ]
     - [ 1,0,1 ]
     - [ 0.1,0.2,-0.1 ]
     - [ -0.1,-0.2,0.1 ]
     - [ -99999999,-99999999,0 ]
-  cheng:
+  jian_ids:
+    - "Positive inter + Negative inter"
+    - "Positive inter + Positive inter"
+    - "Positive inter + zero"
+    - "Positive float + Positive float"
+    - "Negative float + Negative float"
+    - "big number + big number"
+cheng:
+  cheng_datas:
     - [ 1,-1,-1 ]
     - [ 1,0,0 ]
     - [ 0,1,0 ]
     - [ 0.1,0.1,0.01 ]
     - [ 0.1,-0.2,-0.02 ]
     - [ -9999,-9999,99980001 ]
+  cheng_ids:
+    - "Positive inter + Negative inter"
+    - "Positive inter + zero"
+    - "zero + Positive inter"
+    - "Positive float + Positive float"
+    - "Positive float + Negative float"
+    - "big number + big number"
